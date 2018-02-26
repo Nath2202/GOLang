@@ -30,11 +30,11 @@ func imprimir(x imprimivel){
 }
 
 func main(){
-	var testePessoa imprimivel = pessoa{"Nathalia","Lourenço"}
-	fmt.Println(testePessoa.toString())
-	imprimir(testePessoa)
+	var teste imprimivel = pessoa{"Nathalia","Lourenço"}
+	fmt.Println(teste.toString())
+	imprimir(teste)
 
-	var testeProduto imprimivel = produto{"Banana", 2.00}
-	fmt.Println(testeProduto.toString())
-	imprimir(testeProduto)
+    teste = produto{"Banana", 2.00}
+	fmt.Println(teste.toString())
+	imprimir(teste)
 }
